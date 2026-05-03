@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Models / large artefacts (add your own exclusions if needed)
+models/muril_finetuned/
+models/*.pkl
+models/*.bin
+models/*.pt
+models/*.safetensors
+
+# Data (generated splits — not the original dataset)
+data/train.csv
+data/val.csv
+data/test.csv
+data/assamese_augmented.csv
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.*
+
+# Coverage / test artefacts
+.coverage
+htmlcov/
+.pytest_cache/

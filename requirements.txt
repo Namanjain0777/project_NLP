@@ -1,0 +1,45 @@
+# ── Core ML / NLP ──────────────────────────────────────────────────────────────
+torch>=2.1.0
+transformers>=4.40.0
+datasets>=2.18.0
+accelerate>=0.28.0
+sentencepiece>=0.2.0
+protobuf>=3.20.0
+
+# ── LightGBM fallback ──────────────────────────────────────────────────────────
+lightgbm>=4.3.0
+imbalanced-learn>=0.12.0        # SMOTE
+scikit-learn>=1.4.0
+
+# ── Indic NLP ─────────────────────────────────────────────────────────────────
+indic-nlp-library>=0.92
+# IndicTrans2 is loaded via HuggingFace hub (no pip install needed for inference)
+
+# ── Language detection ────────────────────────────────────────────────────────
+lingua-language-detector>=2.0.0
+
+# ── Data handling ─────────────────────────────────────────────────────────────
+pandas>=2.1.0
+numpy>=1.26.0
+sacrebleu>=2.4.0               # chrF score for translation quality
+
+# ── API ───────────────────────────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.7.0
+
+# ── Frontend ──────────────────────────────────────────────────────────────────
+streamlit>=1.34.0
+requests>=2.31.0
+
+# ── Notebooks / Visualisation ─────────────────────────────────────────────────
+jupyter>=1.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.20.0
+ipywidgets>=8.1.0
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+unicodedata2>=15.1.0

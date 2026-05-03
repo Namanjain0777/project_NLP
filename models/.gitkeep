@@ -1,0 +1,3 @@
+# This file keeps the models/ directory tracked by git even when empty.
+# Trained model artefacts (muril_finetuned/, *.pkl) are excluded via .gitignore.
+# Run notebooks/04_model_training.ipynb to regenerate them.
